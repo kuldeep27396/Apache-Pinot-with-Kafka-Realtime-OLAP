@@ -1,6 +1,3 @@
-Here's a README for your GitHub repository:
-
----
 
 # System Info Producer with Kafka and Docker
 
@@ -71,6 +68,3 @@ The `docker-compose.yml` file defines the following services:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
----
-
-Feel free to modify any sections according to your preferences or specific project details!
