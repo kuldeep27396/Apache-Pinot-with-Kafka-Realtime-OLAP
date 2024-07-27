@@ -1,0 +1,39 @@
+{
+  "schemaName": "system_info",
+  "dimensionFieldSpecs": [
+    {
+      "name": "cpu_percent",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "process_count",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "memory_total",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "memory_available",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "memory_percent",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    }
+  ],
+  "metricFieldSpecs": [],
+  "dateTimeFieldSpecs": [
+    {
+      "name": "ts_ms",
+      "dataType": "LONG",
+      "format": "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }
+  ]
+}
