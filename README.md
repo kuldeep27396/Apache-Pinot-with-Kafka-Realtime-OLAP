@@ -43,6 +43,8 @@ This repository contains a Python script that collects system information and pu
    docker-compose logs -f
    ```
 
+ docker exec pinot bash -c "/opt/pinot/bin/pinot-admin.sh AddTable -tableConfigFile /opt/pinot/def-table.json -schemaFile /opt/pinot/def-schema.json -exec"
+
 5. **Verify the Python producer:**
 
    The `system-info-producer` container runs the `produce_system_info.py` script, which sends system metrics to the Kafka topic `system-info-topic`.
