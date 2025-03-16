@@ -1,6 +1,9 @@
 
 # System Info Producer with Kafka and Docker
 
+![Screenshot 2025-03-16 231918](https://github.com/user-attachments/assets/64b78af5-66d1-446e-9da0-cbfcd1baa569)
+
+
 This repository contains a Python script that collects system information and publishes it to a Kafka topic. The project uses Docker to set up the necessary services, including Kafka, Zookeeper, and Apache Pinot.
 
 ## Project Structure
